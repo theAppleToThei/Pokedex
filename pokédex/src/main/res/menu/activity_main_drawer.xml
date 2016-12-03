@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Regions">
+            <menu>
+                <item
+                    android:id="@+id/national"
+                    android:icon="@drawable/national"
+                    android:title="National" />
+                <item
+                    android:id="@+id/kanto"
+                    android:icon="@drawable/one"
+                    android:title="Kanto" />
+                <item
+                    android:id="@+id/johto"
+                    android:icon="@drawable/two"
+                    android:title="Johto" />
+                <item
+                    android:id="@+id/hoenn"
+                    android:icon="@drawable/three"
+                    android:title="Hoenn" />
+                <item
+                    android:id="@+id/sinnoh"
+                    android:icon="@drawable/four"
+                    android:title="Sinnoh" />
+                <item
+                    android:id="@+id/unova"
+                    android:icon="@drawable/five"
+                    android:title="Unova" />
+                <item
+                    android:id="@+id/kalos"
+                    android:icon="@drawable/six"
+                    android:title="Kalos" />
+                <item
+                    android:id="@+id/alola"
+                    android:icon="@drawable/seven"
+                    android:title="Alola" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Special">
+        <menu>
+            <item
+                android:id="@+id/dreamTeam"
+                android:icon="@drawable/favorites"
+                android:title="Dream Team" />
+            <item
+                android:id="@+id/favorites"
+                android:icon="@drawable/heart"
+                android:title="Favorites" />
+            <item
+                android:id="@+id/legendary"
+                android:icon="@drawable/legendary"
+                android:title="Legendaries" />
+        </menu>
+    </item>
+
+</menu>
